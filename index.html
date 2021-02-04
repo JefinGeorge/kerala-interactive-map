@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kerala Interactive Map</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style type="text/css">
+	/*.united-kingdom {
+		background-image: url(img/united_kingdom.png);
+		background-repeat: no-repeat;
+	}*/
+	.heaven-on-earth {
+		fill: yellow;
+	}
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7" id="map" >
+        <!-- Raphaël JS Map Here -->
+        </div>
+        <div class="col-sm-4">
+          <div class="jumbotron text-center">
+          <h2>Kerala Interactive Map</h2>
+          <p>With district and assembly constituencies!</p> 
+        </div>
+        </div>
+        <div class="col-sm-5">
+          <div class="card" style="width: 18rem;">
+          <img class="card-img-top" width="40px" src="images/UDF.jpg" alt="Card image cap">
+          <div class="card-body">
+          <h5 class="card-title" id="region-name">Assembly Constituency</h5>
+          <p class="card-text" id="candidate-list">
+              
+          </p>
+          </div>
+        </div>
+        </div>
+        <script src="raphael-min.js"></script>
+        <script src="map.js"></script>
+      </div>
+    </div>
+
+</body>
+</html>
