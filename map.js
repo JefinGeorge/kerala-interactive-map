@@ -1,4 +1,5 @@
-var rsr = Raphael('map', '580.2', '1102.4'); 
+var rsr = Raphael('map', '80%', '80%'); 
+rsr.setViewBox( '0', '0', '580.2', '1102.4', true);
 
 var regions = [];
 

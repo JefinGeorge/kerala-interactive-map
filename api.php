@@ -6,9 +6,9 @@ if(empty($cid)){
     exit();
 }
 
-    $db_username ='*******';
-    $db_pwd='*******';
-    $dsn  = 'mysql:host=localhost;dbname=*******';
+    $db_username = '**********';
+    $db_pwd = '**********';
+    $dsn  = '**********';
     
     try {
      $pdo  = new PDO($dsn, $db_username, $db_pwd);
